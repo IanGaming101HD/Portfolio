@@ -1,0 +1,10 @@
+        Notes:
+--------------------------
+
+What I have learnt:
+-------------------
+Command to create default react project:
+npx create-react-app <name>
+
+React
+Vite (Simpler) / Webpack
