@@ -1,27 +1,27 @@
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import './Navigation.css';
 
 function Navigation() {
   return (
-    <nav className='Navigation'>
+    <nav className='navigation'>
       <ul>
         <li>
-          <Link to='/'>Home</Link>
+          <NavLink className={({ isActive }) => (isActive ? 'current_page' : '')} to='/'>Home</NavLink>
         </li>
         <li>
-          <Link to='/services'>Services</Link>
+          <NavLink className={({ isActive }) => (isActive ? 'current_page' : '')} to='/services'>Services</NavLink>
         </li>
         <li>
-          <Link to='/skills'>Skills</Link>
+          <NavLink className={({ isActive }) => (isActive ? 'current_page' : '')} to='/skills'>Skills</NavLink>
         </li>
         <li>
-          <Link to='/education'>Education</Link>
+          <NavLink className={({ isActive }) => (isActive ? 'current_page' : '')} to='/education'>Education</NavLink>
         </li>
         <li>
-          <Link to='/experience'>Experience</Link>
+          <NavLink className={({ isActive }) => (isActive ? 'current_page' : '')} to='/experience'>Experience</NavLink>
         </li>
         <li>
-          <Link to='/contact'>Contact</Link>
+          <NavLink className={({ isActive }) => (isActive ? 'current_page' : '')} to='/contact'>Contact</NavLink>
         </li>
       </ul>
     </nav>

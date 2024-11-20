@@ -1,0 +1,16 @@
+.social-button {
+    cursor: pointer;
+    padding: 0.5rem;
+    background-color: transparent;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #ffffff;
+    border-radius: 50px;
+}
+
+.social-button svg {
+    fill: white;
+    color: #ffffff;
+    height: 1.5rem;
+    width: 1.5rem;
+}

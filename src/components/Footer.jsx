@@ -1,16 +1,13 @@
-// import './Header.css';
-import Logo from '../components/Logo.jsx';
-import Navigation from '../components/Navigation.jsx';
+import './Footer.css';
 
-function Header() {
+function Footer() {
   return (
     <>
-      <header>
-        <Logo />
-        <Navigation />
-      </header>
+      <footer>
+        <p>Copyright 2024 © IanGaming101HD</p>
+      </footer>
     </>
   );
 }
 
-export default Header;
+export default Footer;

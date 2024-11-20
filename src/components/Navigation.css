@@ -1,25 +1,29 @@
-.Navigation {
-    background-color: #333;
-    padding: 10px;
+.navigation {
+    margin-left: auto;
+    margin-right: 1rem;
+    padding: 1rem;
 }
 
-.Navigation ul {
+.navigation ul {
+    user-select: none;
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
     list-style-type: none;
     padding: 0;
     margin: 0;
-    display: flex;
 }
 
-.Navigation li {
-    margin-right: 20px;
-}
-
-.Navigation a {
-    color: white;
+.navigation a {
     text-decoration: none;
+    color: white;
     font-weight: bold;
 }
 
-.Navigation a:hover {
+.navigation a:hover , .navigation .current_page {
+    color: #bb564d;
     text-decoration: underline;
+    text-decoration-color: #bb564d;
+    text-underline-offset: 0.5rem;
+    text-decoration-thickness: 0.1rem;
 }
