@@ -9,7 +9,7 @@ function Contact() {
   return (
     <>
       <Header />
-      <div className='container'>
+      <div className='container2'>
         <div className='left'>
           <h2>Contact Me</h2>
           <div>
@@ -27,12 +27,13 @@ function Contact() {
             <SocialButton platform='twitter' />
             <SocialButton platform='instagram' />
           </div>
-          <button>Download CV</button>
+          <button className='download-cv-button'>Download CV</button>
         </div>
         <div className='right'>
-          <input type='text' placeholder='Your name' />
-          <input type='text' placeholder='Your Email' />
-          <input type='text' placeholder='You Message' />
+          <input className='input' type='text' placeholder='Your name' />
+          <input className='input' type='text' placeholder='Your Email' />
+          <input className='input input2' type='text' placeholder='Your Message' />
+          <button className='submit-button'>Submit</button>
         </div>
       </div>
       <Footer />

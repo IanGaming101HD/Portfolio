@@ -1,3 +1,8 @@
+:root {
+    --colour: #b74dbb;
+}
+
+
 .navigation {
     margin-left: auto;
     margin-right: 1rem;
@@ -20,10 +25,11 @@
     font-weight: bold;
 }
 
-.navigation a:hover , .navigation .current_page {
-    color: #bb564d;
+.navigation a:hover,
+.navigation .current_page {
+    color: var(--colour);
     text-decoration: underline;
-    text-decoration-color: #bb564d;
+    text-decoration-color: var(--colour);
     text-underline-offset: 0.5rem;
     text-decoration-thickness: 0.1rem;
 }
