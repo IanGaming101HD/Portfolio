@@ -1,9 +1,9 @@
 header {
+    /* background-color: var(--background-colour); */
+    position: sticky;
+    top: 0;
+    overflow: hidden;
     display: flex;
     flex-direction: row;
     align-items: center;
-}
-
-.hi {
-    background-color: green;
 }

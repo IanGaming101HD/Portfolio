@@ -1,11 +1,20 @@
+:root {
+  --colour: #b74dbb;
+  --background-colour: #1b003a;
+}
+
 body {
   color: #ffffff;
-  background-color: #1b003a;
+  background-color: var(--background-colour);
 }
 
 h2 {
   font-size: 3rem;
   margin: 0;
+}
+
+h2 > span {
+  color: var(--colour);
 }
 
 h3 {
@@ -22,12 +31,12 @@ p {
   flex-direction: column;
 }
 
-.container:first-child, .firstContainer {
+.container:first-child, .home-container {
   margin-top: 2rem;
   margin-bottom: 12rem;
 }
 
-.container > div {
+.container > div > div {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -67,4 +76,8 @@ p {
   height: 51rem;
   object-fit: cover;
   object-position: top;
+}
+
+.exception {
+  text-align: center;
 }

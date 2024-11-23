@@ -2,7 +2,7 @@ import React from 'react';
 import { useTypewriter, Cursor } from 'react-simple-typewriter';
 import './TypingEffect.css';
 
-function TypingEffect({ words, color = '#b74dbb' }) {
+function TypingEffect({ words }) {
     const [ typeEfect ] = useTypewriter({ 
         words,
         loop: {},
@@ -11,7 +11,7 @@ function TypingEffect({ words, color = '#b74dbb' }) {
      })
 
   return (
-    <span style={{ color }}>{typeEfect}<Cursor /></span>
+    <span className='typing-text'>{typeEfect}<Cursor /></span>
   );
 }
 

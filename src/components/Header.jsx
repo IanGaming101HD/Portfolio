@@ -4,12 +4,10 @@ import Navigation from '../components/Navigation.jsx';
 
 function Header() {
   return (
-    <>
-      <header>
-        <Logo />
-        <Navigation />
-      </header>
-    </>
+    <header>
+      <Logo />
+      <Navigation />
+    </header>
   );
 }
 

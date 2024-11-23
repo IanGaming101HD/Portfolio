@@ -1,27 +1,37 @@
-import { NavLink } from 'react-router-dom';
 import './Navigation.css';
 
 function Navigation() {
+  let handleScroll = (id) => {
+    if (id === 'home') {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    } else {
+      let section = document.getElementById(id);
+      if (section) {
+        section.scrollIntoView({ behavior: 'smooth' });
+      }
+    }
+  };
+
   return (
     <nav className='navigation'>
       <ul>
         <li>
-          <NavLink className={({ isActive }) => (isActive ? 'current_page' : '')} to='/'>Home</NavLink>
+          <a onClick={() => handleScroll('home')}>Home</a>
         </li>
         <li>
-          <NavLink className={({ isActive }) => (isActive ? 'current_page' : '')} to='/services'>Services</NavLink>
+          <a onClick={() => handleScroll('services')}>Services</a>
         </li>
         <li>
-          <NavLink className={({ isActive }) => (isActive ? 'current_page' : '')} to='/skills'>Skills</NavLink>
+          <a onClick={() => handleScroll('skills')}>Skills</a>
         </li>
         <li>
-          <NavLink className={({ isActive }) => (isActive ? 'current_page' : '')} to='/education'>Education</NavLink>
+          <a onClick={() => handleScroll('education')}>Education</a>
         </li>
         <li>
-          <NavLink className={({ isActive }) => (isActive ? 'current_page' : '')} to='/experience'>Experience</NavLink>
+          <a onClick={() => handleScroll('experience')}>Experience</a>
         </li>
         <li>
-          <NavLink className={({ isActive }) => (isActive ? 'current_page' : '')} to='/contact'>Contact</NavLink>
+          <a onClick={() => handleScroll('contact')}>Contact</a>
         </li>
       </ul>
     </nav>
