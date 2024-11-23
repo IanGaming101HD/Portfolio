@@ -1,5 +1,13 @@
         Notes:
 --------------------------
+- Instead of making seperate pages, make it so that the navigation links teleport to specific location on the home page (with transition)
+
+
+
+
+
+
+
 
 What I have learnt:
 -------------------
