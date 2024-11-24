@@ -22,7 +22,7 @@ function Navigation() {
     <nav className='navigation'>
       <ul>
         <li>
-          <a onClick={() => handleScroll('home')}>Home</a>
+          <a className='current_page' onClick={() => handleScroll('home')}>Home</a>
         </li>
         <li>
           <a onClick={() => handleScroll('about')}>About</a>

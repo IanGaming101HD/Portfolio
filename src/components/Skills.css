@@ -1,0 +1,39 @@
+.language-boxes {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+}
+
+.language-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: var(--background-colour);
+}
+
+.language {
+  font-size: 2rem;
+}
+
+.percentage {
+  font-size: 4rem;
+}
+
+.experience-box {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.years {
+  font-size: 5rem;
+}
+
+.experience-box > span:not(.years) {
+  font-size: 1.1rem;
+  width: 4rem;
+}
