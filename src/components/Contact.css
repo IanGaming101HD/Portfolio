@@ -13,16 +13,6 @@
     margin-right: .5rem;
 }
 
-.download-cv-button {
-    cursor: pointer;
-    padding: 1rem;
-    border: none;
-    border-radius: 1rem;
-    background-color: var(--colour);
-    color: #ffffff;
-    font-size: 1rem;
-}
-
 .input {
     font-size: 1rem;
     border: none;
@@ -45,9 +35,16 @@
     width: 15rem;
     cursor: pointer;
     padding: 1rem;
-    border: none;
-    border-radius: 1rem;
-    background-color: var(--colour);
+    border-style: solid;
+    border-radius: 3rem;
+    background: linear-gradient(to right, var(--colour) 100%, transparent 0) left;
+    background-repeat: no-repeat;
+    background-size: 0% 100%;
+    transition: background-size 500ms linear;
     color: #ffffff;
-    font-size: 1rem;
+    font-size: 1.5rem;
+}
+
+.submit-button:hover {
+  background-size: 100% 100%;
 }

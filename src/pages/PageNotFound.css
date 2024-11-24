@@ -1,0 +1,15 @@
+.error-header {
+    padding-top: 100px;
+    margin-bottom: 5px;
+    font-size: 150px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: #ffffff;
+}
+
+.error-info {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: #ffffff;
+}

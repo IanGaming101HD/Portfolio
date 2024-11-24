@@ -1,6 +1,5 @@
 import './Contact.css';
 import SocialButton from './SocialButton.jsx';
-import Footer from './Footer.jsx';
 import { ReactComponent as MailIcon } from '../assets/mail-icon.svg';
 import { ReactComponent as PhoneIcon } from '../assets/phone-icon.svg';
 
@@ -29,6 +28,7 @@ function Contact() {
       <div className='right'>
         <input className='input' type='text' placeholder='Your name' />
         <input className='input' type='text' placeholder='Your Email' />
+        <input className='input' type='text' placeholder='Subject' />
         <input className='input input2' type='text' placeholder='Your Message' />
         <button className='submit-button'>Submit</button>
       </div>

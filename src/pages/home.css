@@ -36,12 +36,6 @@ p {
   margin-bottom: 12rem;
 }
 
-.container > div > div {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-}
-
 .left {
   margin-left: 10rem;
 }
@@ -80,4 +74,127 @@ p {
 
 .exception {
   text-align: center;
+}
+
+/* .section-container {
+  padding-bottom: 10rem;
+} */
+
+/* .section-container > div > div > img {
+  height: 25rem;
+} */
+
+.download-cv-button {
+  cursor: pointer;
+  background: linear-gradient(to right, var(--colour) 100%, transparent 0) left;
+  background-size: 0% 100%;
+  border-style: solid;
+  border-radius: 5rem;
+  font-size: 1.5rem;
+  color: #ffffff;
+  padding: 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  transition: background-size 0.5s;
+  background-repeat: no-repeat;
+}
+
+.download-cv-button:hover {
+  background-size: 100% 100%;
+}
+
+.language-boxes {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+}
+
+.language-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: var(--background-colour);
+}
+
+.language {
+  font-size: 2rem;
+}
+
+.percentage {
+  font-size: 4rem;
+}
+
+.experience-box {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.years {
+  font-size: 5rem;
+}
+
+.experience-box > span:not(.years) {
+  font-size: 1.1rem;
+  width: 4rem;
+}
+
+.service-boxes {
+  margin-top: 1rem;
+  margin-left: 22rem;
+  display: grid;
+  width: 75rem;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1rem;
+}
+
+.service-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 1rem;
+  background-color: var(--background-colour);
+}
+
+.home-container > div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.about-container > div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.skills-container > div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.education-container > div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.experience-container > div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.contact-container > div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
