@@ -1,4 +1,4 @@
-.service-boxes {
+.project-boxes {
   margin-bottom: 5rem;
   margin-top: 1rem;
   margin-left: 22rem;
@@ -8,7 +8,7 @@
   gap: 1.5rem;
 }
 
-.service-box {
+.project-box {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -24,16 +24,16 @@
   min-height: 14rem;
 }
 
-.service-box:hover {
+.project-box:hover {
   background-size: 100% 100%;
   transform: translateY(-1rem);
 }
 
-.service-header {
-  font-size: 1.5rem;
-  font-weight: bold;
+.project-icon {
+  width: 5rem;
 }
 
-.service-icon {
-  width: 5rem;
+.project-header {
+  font-size: 1.5rem;
+  font-weight: bold;
 }

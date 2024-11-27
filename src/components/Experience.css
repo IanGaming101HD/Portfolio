@@ -1,5 +1,60 @@
-.experience-container > div {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-  }
+.experience-tabs-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.experience-tabs {
+  display: flex;
+  flex-direction: row;
+  gap: 0.5rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.experience-content {
+  padding: 2rem;
+  width: 35rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  border-style: solid;
+  border-radius: 1rem;
+  border-width: 0.1rem;
+  border-color: #ffffff;
+}
+
+.tab-button {
+  cursor: pointer;
+  background-color: transparent;
+  color: #ffffff;
+  font-size: 1.5rem;
+  font-weight: 600;
+  width: 20rem;
+  padding: 0.5rem;
+  border-radius: 1.5rem;
+  border-style: solid;
+  border-color: #ffffff;
+  border-width: 0.1rem;
+}
+
+.active-tab {
+  background-color: var(--colour);
+}
+
+.experience-item {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+
+.experience-details {
+  display: flex;
+  flex-direction: column;
+}
+
+.experience-image {
+  width: 3rem;
+  height: 3rem;
+}

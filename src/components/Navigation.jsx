@@ -34,10 +34,10 @@ function Navigation() {
           <a onClick={() => handleScroll('services')}>Services</a>
         </li>
         <li>
-          <a onClick={() => handleScroll('education')}>Education</a>
+          <a onClick={() => handleScroll('experience')}>Experience</a>
         </li>
         <li>
-          <a onClick={() => handleScroll('experience')}>Experience</a>
+          <a onClick={() => handleScroll('projects')}>Projects</a>
         </li>
         <li>
           <a onClick={() => handleScroll('contact')}>Contact</a>

@@ -2,13 +2,13 @@ import './Home.css';
 import Header from '../components/Header.jsx';
 import TypingEffect from '../components/TypingEffect.jsx';
 import SocialButton from '../components/SocialButton.jsx';
-import IMG from '../assets/sung-jin-woo.png';
+import foregroundImage from '../assets/sung-jin-woo.png';
 import HireButton from '../components/HireButton.jsx';
 import About from '../components/About.jsx';
 import Skills from '../components/Skills.jsx';
 import Services from '../components/Services.jsx';
-import Education from '../components/Education.jsx';
 import Experience from '../components/Experience.jsx';
+import Projects from '../components/Projects.jsx';
 import Contact from '../components/Contact.jsx';
 import Footer from '../components/Footer.jsx';
 
@@ -20,7 +20,7 @@ function Home() {
         <div id='home-container' className='home-container section-container'>
           <div>
             <div className='left'>
-              <img className='background-img' src={IMG} alt='test'></img>
+              <img className='background-img' src={foregroundImage} alt='test'></img>
             </div>
             <div className='right'>
               <h2>
@@ -44,8 +44,8 @@ function Home() {
         <About />
         <Skills />
         <Services />
-        <Education />
         <Experience />
+        <Projects />
         <Contact />
       </div>
       <Footer />
