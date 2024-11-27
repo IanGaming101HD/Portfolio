@@ -31,7 +31,7 @@ function SocialButton({ platform }) {
   };
 
   let icon = socialMap[platform].icon;
-  if (!icon) return null;
+  if (!icon) return;
 
   let handleClick = () => {
     let url = socialMap[platform].url;

@@ -67,7 +67,7 @@ function Experience() {
   }, []);
 
   return (
-    <div id='experience-section' className='experience-section section-wrapper'>
+    <div className='experience-section section-container'>
       <h2 id='experience' className='section-header'>
         Experience
       </h2>

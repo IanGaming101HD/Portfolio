@@ -1,5 +1,5 @@
 import './Projects.css';
-import image from '../assets/react.svg';
+import image from '../assets/sung-jin-woo.png';
 // import image from '../assets/django.svg';
 
 function Projects() {
