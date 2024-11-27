@@ -10,16 +10,18 @@ function Contact() {
       <h2 id='contact' class='section-header'>
         Contact Me
       </h2>
-      <div className='container2'>
+      <div>
         <div className='left'>
           <h3>Contact Information</h3>
-          <div>
-            <MailIcon />
-            <span>contact@example.com</span>
-          </div>
-          <div>
-            <PhoneIcon />
-            <span>0123456789</span>
+          <div className='contact-methods-container'>
+            <div className='contact-method-container'>
+              <MailIcon className='contact-method-icon' />
+              <span className='contact-method-text'>reaperianbusiness@gmail.com</span>
+            </div>
+            <div className='contact-method-container'>
+              <PhoneIcon className='contact-method-icon' />
+              <span className='contact-method-text'>0123456789</span>
+            </div>
           </div>
           <div className='social-buttons'>
             <SocialButton platform='linkedin' />

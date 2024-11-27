@@ -1,48 +1,63 @@
-.container2 > div {
-    display: flex;
-    flex-direction: column;
+.contact-container > div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
 
-.container2 > div > div {
-    display: flex;
-    flex-direction: row;
+.contact-container > div > div {
+  display: flex;
+  flex-direction: column;
 }
 
-.container2 > div > div > svg {
-    width: 1rem;
-    margin-right: .5rem;
+.contact-methods-container {
+  margin-bottom: 1rem;
+}
+
+.contact-method-container {
+  display: flex;
+  flex-direction: row;
+  /* margin: 1rem; */
+}
+
+.contact-method-icon {
+  width: 2rem;
+  margin-right: 0.5rem;
+}
+
+.contact-method-text {
+  font-size: 1.5rem;
 }
 
 .input {
-    font-size: 1rem;
-    border: none;
-    border-radius: 5px;
-    margin: 0.5rem;
-    background-color: #333333;
-    color: #808080;
-    padding: .75rem;
-    padding-right: 30rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 5px;
+  margin: 0.5rem;
+  background-color: #333333;
+  color: #808080;
+  padding: 0.75rem;
+  padding-right: 25rem;
 }
 
 .input2 {
-    padding-bottom: 20rem;
-    margin-bottom: 1rem;
+  padding-bottom: 20rem;
+  margin-bottom: 1rem;
 }
 
 .submit-button {
-    margin-left: auto;
-    margin-right: auto;
-    width: 15rem;
-    cursor: pointer;
-    padding: 1rem;
-    border-style: solid;
-    border-radius: 3rem;
-    background: linear-gradient(to right, var(--colour) 100%, transparent 0) left;
-    background-repeat: no-repeat;
-    background-size: 0% 100%;
-    transition: background-size 0.5s linear;
-    color: #ffffff;
-    font-size: 1.5rem;
+  margin-left: auto;
+  margin-right: auto;
+  width: 15rem;
+  cursor: pointer;
+  padding: 1rem;
+  border-style: solid;
+  border-radius: 3rem;
+  background: linear-gradient(to right, var(--colour) 100%, transparent 0) left;
+  background-repeat: no-repeat;
+  background-size: 0% 100%;
+  transition: background-size 0.5s linear;
+  color: #ffffff;
+  font-size: 1.5rem;
 }
 
 .submit-button:hover {

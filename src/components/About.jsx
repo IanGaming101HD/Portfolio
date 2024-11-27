@@ -1,7 +1,6 @@
 import './About.css';
 import DownloadCVButton from './DownloadCVButton.jsx';
 import image from '../assets/esports.png';
-// import image from '../assets/react-logo.png';
 
 function About() {
   return (

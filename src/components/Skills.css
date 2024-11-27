@@ -1,10 +1,16 @@
-.language-boxes {
+.skills-container > div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.skill-boxes {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 1rem;
 }
 
-.language-box {
+.skill-box {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -18,12 +24,43 @@
   background-repeat: no-repeat;
 }
 
-.language-box:hover {
+.skill-box:hover {
   background-size: 100% 100%;
 }
 
+.stretch-box {
+  grid-column: 1 / 3;
+}
+
+.service-icon {
+  width: 5rem;
+}
+
+.skill-box-header {
+  font-size: 1rem;
+  /* margin: 3rem; */
+}
+
+.languages-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+}
+
+.language-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 0.25rem;
+}
+
+.language-icon {
+  width: 1rem;
+}
+
 .language {
-  font-size: 2rem;
+  font-size: 1rem;
 }
 
 .percentage {

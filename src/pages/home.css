@@ -78,33 +78,3 @@ p {
   flex-direction: row;
   align-items: center;
 }
-
-.about-container > div {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-}
-
-.skills-container > div {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-}
-
-.education-container > div {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-}
-
-.experience-container > div {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-}
-
-.contact-container > div {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-}
