@@ -2,32 +2,6 @@
 --------------------------
 - https://www.youtube.com/shorts/AUb1FlX1TKc, https://www.youtube.com/watch?v=uTPO6fKtBvM (Use this as inspiratiobn)
 
-- Create Utils.js
-
-Utils.js with latest Javascript ES6 syntax
-
-Create the Utils.js file like this with multiple functions, etc
-
-const someCommonValues = ['common', 'values'];
-    
-export const doSomethingWithInput = (theInput) => {
-   //Do something with the input
-   return theInput;
-};
-    
-export const justAnAlert = () => {
-   alert('hello');
-};
-
-Then in your components that you want to use the util functions, import the specific functions that are needed. You don't have to import everything
-
-import {doSomethingWithInput, justAnAlert} from './path/to/Utils.js'
-
-And then use these functions within the component like this:
-
-justAnAlert();
-<p>{doSomethingWithInput('hello')}</p>
-
 - Also check to see if there is better file layout
 
 What I have learnt:

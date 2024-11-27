@@ -23,7 +23,7 @@ export function openEmail(email, subject) {
   }
 };
 
-export function openNewTab (url) {
+export function openNewTab(url) {
   if (url) {
     window.open(url, '_blank');
   }
