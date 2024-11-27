@@ -1,11 +1,12 @@
 .project-boxes {
+  display: grid;
+  place-items: center;
   margin-bottom: 5rem;
   margin-top: 1rem;
-  margin-left: 22rem;
-  display: grid;
-  width: 75rem;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
   gap: 1.5rem;
+  padding-left: 10rem;
+  padding-right: 10rem;
 }
 
 .project-box {
@@ -21,16 +22,16 @@
   background-size: 0% 100%;
   transition: background-size 0.5s, transform 0.5s;
   background-repeat: no-repeat;
-  min-height: 14rem;
+  width: 50rem;
+  height: 50rem;
 }
 
-.project-box:hover {
+/* .project-box:hover {
   background-size: 100% 100%;
-  transform: translateY(-1rem);
-}
+} */
 
-.project-icon {
-  width: 5rem;
+.project-image {
+  width: 20rem;
 }
 
 .project-header {

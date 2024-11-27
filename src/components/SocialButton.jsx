@@ -5,6 +5,7 @@ import { ReactComponent as GithubIcon } from '../assets/github-icon.svg';
 import { ReactComponent as TwitterIcon } from '../assets/twitter-icon.svg';
 import { ReactComponent as InstagramIcon } from '../assets/instagram-icon.svg';
 import './SocialButton.css';
+import { openNewTab } from '../Utils';
 
 function SocialButton({ platform }) {
   let socialMap = {
@@ -30,18 +31,12 @@ function SocialButton({ platform }) {
     },
   };
 
+  let url = socialMap[platform].url;
   let icon = socialMap[platform].icon;
   if (!icon) return;
 
-  let handleClick = () => {
-    let url = socialMap[platform].url;
-    if (url) {
-      window.open(url, '_blank');
-    }
-  };
-
   return (
-    <button className='social-button' type='button' onClick={handleClick}>
+    <button className='social-button' type='button' onClick={() => openNewTab(url) }>
       {icon}
     </button>
   );

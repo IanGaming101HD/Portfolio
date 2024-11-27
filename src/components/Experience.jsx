@@ -5,7 +5,7 @@ import image from '../assets/react-logo.png';
 function Experience() {
   let experienceObject = { 
     education: [{ image, duration: 'Jan 2024 - Present', title: 'Qualification Title 1', company_title: 'Company Name', short_desc: 'Short description' }, { image, duration: 'Jan 2024 - Present', title: 'Qualification Title 2', company_title: 'Company Name', short_desc: 'Short description' }],
-    work: [{ image, duration: 'Jan 2024 - Present', title: 'Qualification Title 3', company_title: 'Company Name', short_desc: 'Short description' }, { image, duration: 'Jan 2024 - Present', title: 'Qualification Title 4', company_title: 'Company Name', short_desc: 'Short description' }]
+    work: [{ image, duration: 'Jan 2024 - Present', title: 'Job Title 1', company_title: 'Company Name', short_desc: 'Short description' }, { image, duration: 'Jan 2024 - Present', title: 'Job Title 2', company_title: 'Company Name', short_desc: 'Short description' }]
   };
 
   let createExperienceItems = (experienceType) => {
@@ -48,7 +48,7 @@ function Experience() {
     });
   };
 
-  let click = (event) => {
+  let handleClick = (event) => {
     let element = event.target;
     let activeTabs = Array.from(document.getElementsByClassName('active-tab'));
     if (activeTabs.includes(element)) return;
@@ -73,10 +73,10 @@ function Experience() {
       </h2>
       <div className='experience-tabs-wrapper'>
         <div className='experience-tabs'>
-          <button className='tab-button active-tab' name="education" onClick={click}>
+          <button className='tab-button active-tab' name='education' onClick={handleClick}>
             Education
           </button>
-          <button className='tab-button' name="work" onClick={click}>
+          <button className='tab-button' name='work' onClick={handleClick}>
             Work
           </button>
         </div>
