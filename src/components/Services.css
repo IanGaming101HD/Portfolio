@@ -16,13 +16,20 @@
   padding: 0.5rem;
   border: 1px solid #ffffff;
   border-radius: 1rem;
-  background: linear-gradient(to right, var(--colour) 100%, transparent 0) left;
+  background-image: linear-gradient(to right, var(--colour) 100%, transparent 0);
+  background-position: left;
   background-size: 0% 100%;
-  transition: background-size 0.5s;
+  transition: background-size 0.5s, transform 0.5s;
   background-repeat: no-repeat;
-  /* min-height: 15rem; */
+  min-height: 14rem;
 }
 
 .service-box:hover {
   background-size: 100% 100%;
+  transform: translateY(-1rem);
+}
+
+.service-header {
+  font-size: 1.5rem;
+  font-weight: bold;
 }

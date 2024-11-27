@@ -13,11 +13,12 @@
 }
 
 .navigation a {
+    cursor: pointer;
     color: white;
     font-weight: bold;
     text-decoration: none;
     position: relative;
-    transition: color 0.5s linear;
+    transition: color 0.2s linear;
 }
 
 .navigation a::after {
@@ -40,56 +41,3 @@
 .navigation .current_page {
     color: var(--colour);
 }
-
-/* .navigation a {
-    color: white;
-    font-weight: bold;
-    text-decoration-color: linear-gradient(to right, var(--colour) 100%, transparent 0) left;
-    transition-property: color, text-direction-color;
-    transition-duration: 0.5s;
-    transition-timing-function: linear;
-}
-
-.navigation a:hover,
-.navigation .current_page {
-    text-decoration: underline;
-    cursor: pointer;
-    text-underline-offset: 0.5rem;
-    text-decoration-thickness: 0.1rem;
-    color: var(--colour);
-    text-decoration-color: var(--colour);
-} */
-
-/* ORIGINAL */
-
-/* .navigation {
-    margin-left: auto;
-    margin-right: 1rem;
-    padding: 1rem;
-}
-
-.navigation ul {
-    user-select: none;
-    display: flex;
-    flex-direction: row;
-    gap: 1rem;
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-}
-
-.navigation a {
-    text-decoration: none;
-    color: white;
-    font-weight: bold;
-}
-
-.navigation a:hover,
-.navigation .current_page {
-    cursor: pointer;
-    color: var(--colour);
-    text-decoration: underline;
-    text-decoration-color: var(--colour);
-    text-underline-offset: 0.5rem;
-    text-decoration-thickness: 0.1rem;
-} */

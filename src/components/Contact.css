@@ -40,7 +40,7 @@
     background: linear-gradient(to right, var(--colour) 100%, transparent 0) left;
     background-repeat: no-repeat;
     background-size: 0% 100%;
-    transition: background-size 500ms linear;
+    transition: background-size 0.5s linear;
     color: #ffffff;
     font-size: 1.5rem;
 }

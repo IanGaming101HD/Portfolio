@@ -54,19 +54,6 @@ p {
   margin-bottom: 1rem;
 }
 
-.hire-button {
-  cursor: pointer;
-  padding: 1rem;
-  padding-left: 2rem;
-  padding-right: 2rem;
-  border-radius: 2rem;
-  border-style: solid;
-  border-color: #ffffff;
-  background-color: transparent;
-  color: #ffffff;
-  font-size: 1.5rem;
-}
-
 .background-img {
   width: 40rem;
   height: 51rem;
@@ -79,31 +66,12 @@ p {
 }
 
 /* .section-container {
-  padding-bottom: 10rem;
+  min-height: 58rem;
 } */
 
 /* .section-container > div > div > img {
   height: 25rem;
 } */
-
-.download-cv-button {
-  cursor: pointer;
-  background: linear-gradient(to right, var(--colour) 100%, transparent 0) left;
-  background-size: 0% 100%;
-  border-style: solid;
-  border-radius: 5rem;
-  font-size: 1.5rem;
-  color: #ffffff;
-  padding: 1rem;
-  padding-left: 1rem;
-  padding-right: 1rem;
-  transition: background-size 0.5s;
-  background-repeat: no-repeat;
-}
-
-.download-cv-button:hover {
-  background-size: 100% 100%;
-}
 
 .home-container > div {
   display: flex;

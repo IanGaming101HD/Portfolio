@@ -1,0 +1,18 @@
+.download-cv-button {
+    cursor: pointer;
+    border-style: solid;
+    border-radius: 5rem;
+    font-size: 1.5rem;
+    color: #ffffff;
+    padding: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    background: linear-gradient(to right, var(--colour) 100%, transparent 0) left;
+    background-size: 0% 100%;
+    transition: background-size 0.5s;
+    background-repeat: no-repeat;
+  }
+  
+  .download-cv-button:hover {
+    background-size: 100% 100%;
+  }

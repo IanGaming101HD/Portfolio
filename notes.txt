@@ -1,6 +1,6 @@
         Notes:
 --------------------------
-- Maybe make it so if it is not / or home, and user clicks on navigation, it takes them to / and goes to that specific section on page.
+- https://www.youtube.com/shorts/AUb1FlX1TKc, https://www.youtube.com/watch?v=uTPO6fKtBvM (Use this as inspiratiobn)
 
 What I have learnt:
 -------------------

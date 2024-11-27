@@ -3,10 +3,12 @@ import Header from '../components/Header.jsx';
 import TypingEffect from '../components/TypingEffect.jsx';
 import SocialButton from '../components/SocialButton.jsx';
 import IMG from '../assets/sung-jin-woo.png';
+import HireButton from '../components/HireButton.jsx';
 import About from '../components/About.jsx';
 import Skills from '../components/Skills.jsx';
 import Services from '../components/Services.jsx';
-import IMG3 from '../assets/react-logo.png';
+import Education from '../components/Education.jsx';
+import Experience from '../components/Experience.jsx';
 import Contact from '../components/Contact.jsx';
 import Footer from '../components/Footer.jsx';
 
@@ -35,62 +37,16 @@ function Home() {
                 <SocialButton platform='twitter' />
                 <SocialButton platform='instagram' />
               </div>
-              <button className='hire-button'>Hire me</button>
+              <HireButton />
             </div>
           </div>
         </div>
-        <div id='about-container' className='about-container section-container'>
-          <h2 id='about' class='section-header'>
-            About me
-          </h2>
-          <About />
-        </div>
-        <div id='skills-container' className='skills-container section-container'>
-          <h2 id='skills' class='section-header'>
-            My Skills
-          </h2>
+        <About />
         <Skills />
-        </div>
-        <div id='services-container' className='services-container section-container'>
-          <h2 id='services' class='section-header'>
-            My Services
-          </h2>
-          <Services />
-        </div>
-        <div id='education-container' className='education-container section-container'>
-          <h2 id='education' class='section-header'>
-            Education
-          </h2>
-          <div>
-            <div className='left'>
-              <img src={IMG3} alt='test'></img>
-            </div>
-            <div className='right'>
-              <h3>I'm a full stack web developer</h3>
-              <p>Having created many projects, I am very passionate about Computer Science and have shown my interest by learning many programming languages such as Python, Lua, and JavaScript. Projects include creating a web application, games and working with databases. I plan to study Computer Science and would like to have work experience in a technological industry. Apart from programming, I have many other skills which is working with spreadsheets, presentations and video/audio editing.</p>
-            </div>
-          </div>
-        </div>
-        <div id='experience-container' className='experience-container section-container'>
-          <h2 id='experience' class='section-header'>
-            My Experience
-          </h2>
-          <div>
-            <div className='left'>
-              <h3>I'm a full stack web developer</h3>
-              <p>Having created many projects, I am very passionate about Computer Science and have shown my interest by learning many programming languages such as Python, Lua, and JavaScript. Projects include creating a web application, games and working with databases. I plan to study Computer Science and would like to have work experience in a technological industry. Apart from programming, I have many other skills which is working with spreadsheets, presentations and video/audio editing.</p>
-            </div>
-            <div className='right'>
-              <img src={IMG3} alt='test'></img>
-            </div>
-          </div>
-        </div>
-        <div id='contact-container' className='contact-container section-container'>
-          <h2 id='contact' class='section-header'>
-            Contact Me
-          </h2>
-          <Contact />
-        </div>
+        <Services />
+        <Education />
+        <Experience />
+        <Contact />
       </div>
       <Footer />
     </>
