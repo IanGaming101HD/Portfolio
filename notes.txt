@@ -3,6 +3,7 @@
 
 - Make CSS better for skills
 - Maybe add a view more option for my projects and about
+- Prevent form reload on submit
 
 - https://www.youtube.com/shorts/AUb1FlX1TKc, https://www.youtube.com/watch?v=uTPO6fKtBvM (Use this as inspiratiobn)
 

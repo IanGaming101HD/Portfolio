@@ -27,7 +27,12 @@
 
 .tab-button {
   cursor: pointer;
+  background-image: linear-gradient(to right, var(--colour) 100%, transparent 0);
+  background-position: left;
+  background-size: 0% 100%;
   background-color: transparent;
+  transition: background-size 0.5s;
+  background-repeat: no-repeat;
   color: #ffffff;
   font-size: 1.5rem;
   font-weight: 600;
@@ -39,9 +44,13 @@
   border-width: 0.1rem;
 }
 
-.active-tab {
-  background-color: var(--colour);
+.tab-button:hover {
+  background-size: 100% 100%;
 }
+
+/* .active-tab {
+  background-color: var(--colour);
+} */
 
 .experience-item {
   display: flex;

@@ -20,12 +20,13 @@
   background-image: linear-gradient(to right, var(--colour) 100%, transparent 0);
   background-position: left;
   background-size: 0% 100%;
-  transition: background-size 0.5s;
+  transition: background-size 0.5s, transform 0.5s;
   background-repeat: no-repeat;
 }
 
 .skill-box:hover {
   background-size: 100% 100%;
+  transform: translateY(-1rem);
 }
 
 .stretch-box {
