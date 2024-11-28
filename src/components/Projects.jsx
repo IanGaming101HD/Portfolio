@@ -81,8 +81,8 @@ function Projects() {
           </button>
         </div>
         <div className='project-box'>
-          <img className='project-image' src={tabsSaverExtensionImage} />
-          <span className='project-header'>Tab's Saver Browser Extension</span>
+          <img className='project-image' src={tabsSaverExtensionImage} alt='Tab Saver Browser Extension' />
+          <span className='project-header'>Tab Saver Browser Extension</span>
           <span className='project-description'>A browser extension to save and restore tabs for productivity.</span>
           <button className='review-project-button' onClick={() => openNewTab('https://github.com/iangaming101hd/tabs-saver-chrome-extension')}>
             Review Project

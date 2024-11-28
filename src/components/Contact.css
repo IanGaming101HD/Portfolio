@@ -41,6 +41,10 @@
   /* padding-right: 25rem; */
 }
 
+.form-input:focus {
+  outline: none;
+}
+
 .input-group {
   display: flex;
   flex-direction: row;
