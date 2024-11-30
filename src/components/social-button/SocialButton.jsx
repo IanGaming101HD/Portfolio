@@ -1,11 +1,11 @@
 import React from 'react';
-import { ReactComponent as IndeedIcon } from '../assets/indeed-icon.svg';
-import { ReactComponent as LinkedinIcon } from '../assets/linkedin-icon.svg';
-import { ReactComponent as GithubIcon } from '../assets/github-icon.svg';
-import { ReactComponent as TwitterIcon } from '../assets/twitter-icon.svg';
-import { ReactComponent as InstagramIcon } from '../assets/instagram-icon.svg';
+import { ReactComponent as IndeedIcon } from '../../assets/indeed-icon.svg';
+import { ReactComponent as LinkedinIcon } from '../../assets/linkedin-icon.svg';
+import { ReactComponent as GithubIcon } from '../../assets/github-icon.svg';
+import { ReactComponent as TwitterIcon } from '../../assets/twitter-icon.svg';
+import { ReactComponent as InstagramIcon } from '../../assets/instagram-icon.svg';
 import './SocialButton.css';
-import { openNewTab } from '../Utils';
+import { openNewTab } from '../../Utils';
 
 function SocialButton({ platform }) {
   let socialMap = {

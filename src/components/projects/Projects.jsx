@@ -1,21 +1,21 @@
 import './Projects.css';
-import chessImage from '../assets/chess.png';
-import spaceInvadersImage from '../assets/space-invaders.png';
-import discordBotImage from '../assets/discord-bot.png';
-import pongImage from '../assets/pong.png';
-import snakeImage from '../assets/snake.png';
-import pokerImage from '../assets/poker.png';
-import ecommercePlatformImage from '../assets/ecommerce-platform.png';
-import tabsSaverExtensionImage from '../assets/tabs-saver-extension.png';
-import portfolioImage from '../assets/portfolio.png';
-import fullStackWebsiteImage from '../assets/full-stack-website.png';
-import connect4Image from '../assets/connect-4.png';
-import flagGuesserImage from '../assets/flag-guesser.png';
-import wordleImage from '../assets/wordle.png';
-import hangmanImage from '../assets/hangman.png';
-import flashcardToolImage from '../assets/flashcard-tool.png';
-import tictactoeImage from '../assets/tictactoe.png';
-import { openNewTab } from '../Utils';
+import chessImage from '../../assets/chess.png';
+import spaceInvadersImage from '../../assets/space-invaders.png';
+import discordBotImage from '../../assets/discord-bot.png';
+import pongImage from '../../assets/pong.png';
+import snakeImage from '../../assets/snake.png';
+import pokerImage from '../../assets/poker.png';
+import ecommercePlatformImage from '../../assets/ecommerce-platform.png';
+import tabsSaverExtensionImage from '../../assets/tabs-saver-extension.png';
+import portfolioImage from '../../assets/portfolio.png';
+import fullStackWebsiteImage from '../../assets/full-stack-website.png';
+import connect4Image from '../../assets/connect-4.png';
+import flagGuesserImage from '../../assets/flag-guesser.png';
+import wordleImage from '../../assets/wordle.png';
+import hangmanImage from '../../assets/hangman.png';
+import flashcardToolImage from '../../assets/flashcard-tool.png';
+import tictactoeImage from '../../assets/tictactoe.png';
+import { openNewTab } from '../../Utils';
 
 function Projects() {
   return (

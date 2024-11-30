@@ -1,5 +1,5 @@
 import './PageNotFound.css';
-import Header from '../components/Header.jsx';
+import Header from '../../components/header/Header.jsx';
 
 function PageNotFound() {
   return (

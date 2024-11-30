@@ -1,6 +1,6 @@
 import './Navigation.css';
 import { useNavigate } from 'react-router-dom';
-import { moveToTop, moveTo } from '../Utils.js';
+import { moveToTop, moveTo } from '../../Utils.js';
 
 function Navigation() {
   let navigate = useNavigate();

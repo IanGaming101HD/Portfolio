@@ -1,5 +1,5 @@
 import './DownloadCVButton.css';
-import cv from '../assets/Ian Grey - CV.pdf'
+import cv from '../../assets/Ian Grey - CV.pdf'
 
 function DownloadCV() {
     let click = () => {

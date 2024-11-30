@@ -1,21 +1,21 @@
 import './Skills.css';
-import htmlImage from '../assets/html.svg';
-import cssImage from '../assets/css.svg';
-import javascriptImage from '../assets/javascript.svg';
-import reactImage from '../assets/react.svg';
-import bootstrapImage from '../assets/bootstrap.svg';
-import tailwindImage from '../assets/tailwind.svg';
-import nodejsImage from '../assets/nodejs.svg';
-import expressjsImage from '../assets/express-js.svg';
-import pythonImage from '../assets/python.svg';
-import djangoImage from '../assets/django.svg';
-import sqlImage from '../assets/sql.svg';
-import mongodbImage from '../assets/mongodb.svg';
-import mysqlImage from '../assets/mysql.svg';
-import postmanImage from '../assets/postman.svg';
-import gitImage from '../assets/git.svg';
-import awsImage from '../assets/aws.svg';
-import firebaseImage from '../assets/firebase.svg';
+import htmlImage from '../../assets/html.svg';
+import cssImage from '../../assets/css.svg';
+import javascriptImage from '../../assets/javascript.svg';
+import reactImage from '../../assets/react.svg';
+import bootstrapImage from '../../assets/bootstrap.svg';
+import tailwindImage from '../../assets/tailwind.svg';
+import nodejsImage from '../../assets/nodejs.svg';
+import expressjsImage from '../../assets/express-js.svg';
+import pythonImage from '../../assets/python.svg';
+import djangoImage from '../../assets/django.svg';
+import sqlImage from '../../assets/sql.svg';
+import mongodbImage from '../../assets/mongodb.svg';
+import mysqlImage from '../../assets/mysql.svg';
+import postmanImage from '../../assets/postman.svg';
+import gitImage from '../../assets/git.svg';
+import awsImage from '../../assets/aws.svg';
+import firebaseImage from '../../assets/firebase.svg';
 
 function Skills() {
   return (

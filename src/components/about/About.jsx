@@ -1,6 +1,6 @@
 import './About.css';
-import DownloadCVButton from './DownloadCVButton.jsx';
-import image from '../assets/esports.png';
+import DownloadCVButton from '../download-cv-button/DownloadCVButton.jsx';
+import image from '../../assets/esports.png';
 
 function About() {
   return (

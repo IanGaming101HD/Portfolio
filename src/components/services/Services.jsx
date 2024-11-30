@@ -1,10 +1,10 @@
 import './Services.css';
-import { ReactComponent as WebIcon } from '../assets/web.svg';
-import { ReactComponent as DesktopIcon } from '../assets/desktop.svg';
-import { ReactComponent as GameIcon } from '../assets/game.svg';
-import { ReactComponent as ScriptingIcon } from '../assets/scripting.svg';
-import { ReactComponent as VideoEditingIcon } from '../assets/video-editing.svg';
-import { ReactComponent as DatabasesIcon } from '../assets/database.svg';
+import { ReactComponent as WebIcon } from '../../assets/web.svg';
+import { ReactComponent as DesktopIcon } from '../../assets/desktop.svg';
+import { ReactComponent as GameIcon } from '../../assets/game.svg';
+import { ReactComponent as ScriptingIcon } from '../../assets/scripting.svg';
+import { ReactComponent as VideoEditingIcon } from '../../assets/video-editing.svg';
+import { ReactComponent as DatabasesIcon } from '../../assets/database.svg';
 
 function Services() {
   return (

@@ -1,5 +1,5 @@
 import './HireButton.css';
-import { moveTo, openEmail } from '../Utils.js';
+import { moveTo, openEmail } from '../../Utils.js';
 
 function HireButton() {
   let email = 'reaperianbusiness@gmail.com';

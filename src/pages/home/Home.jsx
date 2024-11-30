@@ -1,16 +1,16 @@
 import './Home.css';
-import Header from '../components/Header.jsx';
-import TypingEffect from '../components/TypingEffect.jsx';
-import SocialButton from '../components/SocialButton.jsx';
-import foregroundImage from '../assets/sung-jin-woo.png';
-import HireButton from '../components/HireButton.jsx';
-import About from '../components/About.jsx';
-import Skills from '../components/Skills.jsx';
-import Services from '../components/Services.jsx';
-import Experience from '../components/Experience.jsx';
-import Projects from '../components/Projects.jsx';
-import Contact from '../components/Contact.jsx';
-import Footer from '../components/Footer.jsx';
+import Header from '../../components/header/Header.jsx';
+import TypingEffect from '../../components/typing-effect/TypingEffect.jsx';
+import SocialButton from '../../components/social-button/SocialButton.jsx';
+import foregroundImage from '../../assets/sung-jin-woo.png';
+import HireButton from '../../components/hire-button/HireButton.jsx';
+import About from '../../components/about/About.jsx';
+import Skills from '../../components/skills/Skills.jsx';
+import Services from '../../components/services/Services.jsx';
+import Experience from '../../components/experience/Experience.jsx';
+import Projects from '../../components/projects/Projects.jsx';
+import Contact from '../../components/contact/Contact.jsx';
+import Footer from '../../components/footer/Footer.jsx';
 
 function Home() {
   return (

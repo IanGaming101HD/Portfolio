@@ -1,8 +1,8 @@
 import './Contact.css';
-import SocialButton from './SocialButton.jsx';
-import DownloadCVButton from './DownloadCVButton.jsx';
-import { ReactComponent as MailIcon } from '../assets/mail-icon.svg';
-import { ReactComponent as PhoneIcon } from '../assets/phone-icon.svg';
+import SocialButton from '../social-button/SocialButton.jsx';
+import DownloadCVButton from '../download-cv-button/DownloadCVButton.jsx';
+import { ReactComponent as MailIcon } from '../../assets/mail-icon.svg';
+import { ReactComponent as PhoneIcon } from '../../assets/phone-icon.svg';
 
 function Contact() {
   // let sendForm = async () => {

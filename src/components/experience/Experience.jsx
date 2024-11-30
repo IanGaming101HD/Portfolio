@@ -1,6 +1,6 @@
 import React from 'react';
 import './Experience.css';
-import image from '../assets/react-logo.png';
+import image from '../../assets/react-logo.png';
 
 function Experience() {
   let experienceObject = { 

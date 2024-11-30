@@ -1,6 +1,6 @@
 import './Header.css';
-import Logo from '../components/Logo.jsx';
-import Navigation from '../components/Navigation.jsx';
+import Logo from '../logo/Logo.jsx';
+import Navigation from '../navigation/Navigation.jsx';
 
 function Header() {
   return (
