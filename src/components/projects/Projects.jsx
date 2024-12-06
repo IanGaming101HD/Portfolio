@@ -15,7 +15,7 @@ import wordleImage from '../../assets/wordle.png';
 import hangmanImage from '../../assets/hangman.png';
 import flashcardToolImage from '../../assets/flashcard-tool.png';
 import tictactoeImage from '../../assets/tictactoe.png';
-import { openNewTab } from '../../Utils';
+import openNewTab from '../../utils/openNewTab.js';
 
 function Projects() {
   return (

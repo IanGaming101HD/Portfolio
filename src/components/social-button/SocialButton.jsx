@@ -5,7 +5,7 @@ import { ReactComponent as GithubIcon } from '../../assets/github-icon.svg';
 import { ReactComponent as TwitterIcon } from '../../assets/twitter-icon.svg';
 import { ReactComponent as InstagramIcon } from '../../assets/instagram-icon.svg';
 import './SocialButton.css';
-import { openNewTab } from '../../Utils';
+import openNewTab from '../../utils/openNewTab.js';
 
 function SocialButton({ platform }) {
   let socialMap = {

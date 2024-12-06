@@ -1,6 +1,6 @@
 import './Logo.css';
 import { useNavigate } from 'react-router-dom';
-import { moveToTop } from '../../Utils.js';
+import moveToTop from '../../utils/moveToTop.js';
 
 function Logo() {
   let navigate = useNavigate();

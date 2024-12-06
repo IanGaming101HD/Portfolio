@@ -1,8 +1,9 @@
+import './index.css';
 import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
 import Home from './pages/home/Home.jsx';
 import PageNotFound from './pages/page-not-found/PageNotFound.jsx';
 
-function App() {
+function AppRoutes() {
   return (
     <Router>
       <Routes>
@@ -15,4 +16,4 @@ function App() {
   );
 }
 
-export default App;
+export default AppRoutes;
