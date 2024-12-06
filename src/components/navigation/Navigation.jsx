@@ -20,25 +20,25 @@ function Navigation() {
     <nav className='navigation'>
       <ul>
         <li>
-          <a className='current_page' onClick={() => handleScroll('home')}>Home</a>
+          <button className='current_page' onClick={() => handleScroll('home')}>Home</button>
         </li>
         <li>
-          <a onClick={() => handleScroll('about')}>About</a>
+          <button onClick={() => handleScroll('about')}>About</button>
         </li>
         <li>
-          <a onClick={() => handleScroll('skills')}>Skills</a>
+          <button onClick={() => handleScroll('skills')}>Skills</button>
         </li>
         <li>
-          <a onClick={() => handleScroll('services')}>Services</a>
+          <button onClick={() => handleScroll('services')}>Services</button>
         </li>
         <li>
-          <a onClick={() => handleScroll('experience')}>Experience</a>
+          <button onClick={() => handleScroll('experience')}>Experience</button>
         </li>
         <li>
-          <a onClick={() => handleScroll('projects')}>Projects</a>
+          <button onClick={() => handleScroll('projects')}>Projects</button>
         </li>
         <li>
-          <a onClick={() => handleScroll('contact')}>Contact</a>
+          <button onClick={() => handleScroll('contact')}>Contact</button>
         </li>
       </ul>
     </nav>

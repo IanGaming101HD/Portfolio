@@ -54,8 +54,8 @@ p {
 }
 
 .background-img {
-  width: 40rem;
-  height: 51rem;
+  width: 30vw;
+  height: 88vh;
   object-fit: cover;
   object-position: top;
 }

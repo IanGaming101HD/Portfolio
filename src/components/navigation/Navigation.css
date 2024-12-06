@@ -12,7 +12,14 @@
     padding: 0;
 }
 
-.navigation a {
+button {
+    background: none;
+    border: none;
+    font: inherit;
+    padding: 0;
+}
+
+.navigation button {
     cursor: pointer;
     color: white;
     font-weight: bold;
@@ -21,7 +28,7 @@
     transition: color 0.2s linear;
 }
 
-.navigation a::after {
+.navigation button::after {
     content: '';
     position: absolute;
     left: 0;
@@ -32,12 +39,12 @@
     transition: width 0.2s linear;
 }
 
-.navigation a:hover::after,
+.navigation button:hover::after,
 .navigation .current_page::after {
     width: 100%;
 }
 
-.navigation a:hover,
+.navigation button:hover,
 .navigation .current_page {
     color: var(--colour);
 }

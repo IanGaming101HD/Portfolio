@@ -2,52 +2,51 @@ import React from 'react';
 import './Experience.css';
 import image from '../../assets/react-logo.png';
 
-function Experience() {
+function createExperienceItems(experienceType) {
   let experienceObject = { 
     education: [{ image, duration: 'Jan 2024 - Present', title: 'Qualification Title 1', company_title: 'Company Name', short_desc: 'Short description' }, { image, duration: 'Jan 2024 - Present', title: 'Qualification Title 2', company_title: 'Company Name', short_desc: 'Short description' }],
     work: [{ image, duration: 'Jan 2024 - Present', title: 'Job Title 1', company_title: 'Company Name', short_desc: 'Short description' }, { image, duration: 'Jan 2024 - Present', title: 'Job Title 2', company_title: 'Company Name', short_desc: 'Short description' }]
   };
+  let selectedExperience = experienceObject[experienceType];
+  let contentContainer = document.querySelector('.experience-content');
+  selectedExperience.forEach(item => {
+    let experienceItem = document.createElement('div');
+    experienceItem.classList.add('experience-item');
 
-  let createExperienceItems = (experienceType) => {
-    let selectedExperience = experienceObject[experienceType];
-    let contentContainer = document.querySelector('.experience-content');
-    selectedExperience.forEach(item => {
-      let experienceItem = document.createElement('div');
-      experienceItem.classList.add('experience-item');
+    let imageElement = document.createElement('img');
+    imageElement.classList.add('experience-image');
+    imageElement.src = item.image;
 
-      let imageElement = document.createElement('img');
-      imageElement.classList.add('experience-image');
-      imageElement.src = item.image;
+    let detailsContainer = document.createElement('div');
+    detailsContainer.classList.add('experience-details');
 
-      let detailsContainer = document.createElement('div');
-      detailsContainer.classList.add('experience-details');
+    let dateElement = document.createElement('span');
+    dateElement.classList.add('experience-date');
+    dateElement.textContent = item.duration;
 
-      let dateElement = document.createElement('span');
-      dateElement.classList.add('experience-date');
-      dateElement.textContent = item.duration;
+    let titleElement = document.createElement('span');
+    titleElement.classList.add('experience-title');
+    titleElement.textContent = item.title;
 
-      let titleElement = document.createElement('span');
-      titleElement.classList.add('experience-title');
-      titleElement.textContent = item.title;
+    let companyElement = document.createElement('span');
+    companyElement.classList.add('experience-company');
+    companyElement.textContent = item.company_title;
 
-      let companyElement = document.createElement('span');
-      companyElement.classList.add('experience-company');
-      companyElement.textContent = item.company_title;
+    let descriptionElement = document.createElement('span');
+    descriptionElement.classList.add('experience-description');
+    descriptionElement.textContent = item.short_desc;
 
-      let descriptionElement = document.createElement('span');
-      descriptionElement.classList.add('experience-description');
-      descriptionElement.textContent = item.short_desc;
+    detailsContainer.appendChild(dateElement);
+    detailsContainer.appendChild(titleElement);
+    detailsContainer.appendChild(companyElement);
+    detailsContainer.appendChild(descriptionElement);
+    experienceItem.appendChild(imageElement);
+    experienceItem.appendChild(detailsContainer);
+    contentContainer.appendChild(experienceItem);
+  });
+};
 
-      detailsContainer.appendChild(dateElement);
-      detailsContainer.appendChild(titleElement);
-      detailsContainer.appendChild(companyElement);
-      detailsContainer.appendChild(descriptionElement);
-      experienceItem.appendChild(imageElement);
-      experienceItem.appendChild(detailsContainer);
-      contentContainer.appendChild(experienceItem);
-    });
-  };
-
+function Experience() {
   let handleClick = (event) => {
     let element = event.target;
     let activeTabs = Array.from(document.getElementsByClassName('active-tab'));
