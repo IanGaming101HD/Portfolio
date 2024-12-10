@@ -1,3 +1,7 @@
+.experience-section {
+  height: 80vh;
+}
+
 .experience-tabs-wrapper {
   display: flex;
   flex-direction: column;
