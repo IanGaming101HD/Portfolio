@@ -1,6 +1,10 @@
 .social-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     cursor: pointer;
-    padding: 0.5rem;
+    width: 2.5rem;
+    height: 2.5rem;
     border: 1px solid #fff;
     border-radius: 2rem;
     background: linear-gradient(to right, var(--colour) 100%, transparent 0) left;
