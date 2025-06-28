@@ -2,6 +2,9 @@ footer {
     background-color: #4b006e;
     padding: 2rem;
     margin-top: 5rem;
+    width: 100%;
+    box-sizing: border-box;
+    position: relative;
 }
 
 footer > p {
